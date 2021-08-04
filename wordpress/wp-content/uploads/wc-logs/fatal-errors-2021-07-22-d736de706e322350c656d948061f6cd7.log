@@ -1,0 +1,58 @@
+2021-07-22T17:33:54+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on bool in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-single-product.php:115
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-single-product.php, na linha 115
+
+2021-07-22T17:35:08+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on bool in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-single-product.php:115
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-single-product.php, na linha 115
+
+2021-07-22T17:39:16+00:00 CRITICAL Uncaught WC_Data_Exception: Tipo de produto inválido: O ID passado não corresponde a uma variação do produto. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variation-data-store-cpt.php:58
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Variation_Data_Store_CPT->read(Object(WC_Product_Variation))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product_Variation))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(24): WC_Product->__construct(39)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-product-variation.php(54): WC_Product_Simple->__construct(39)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-single-product.php(114): WC_Product_Variation->__construct(39)
+#5 C:\xampp\htdocs\wordpr, em C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variation-data-store-cpt.php, na linha 58
+
+2021-07-22T17:44:04+00:00 CRITICAL syntax error, unexpected '<', em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-single-product.php, na linha 112
+
+2021-07-22T17:47:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function so_28073705(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php on line 146 and exactly 1 expected in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php(146): so_28073705()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php(2): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php, na linha 38
+
+2021-07-22T18:55:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-includes\media.php, na linha 108
+
+2021-07-22T21:12:57+00:00 CRITICAL Uncaught Error: Call to undefined function iconic_get_available_attributes() in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php:59
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): iconic_available_attributes('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\woocommerce\content-product.php(42): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\wooco, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php, na linha 59
+

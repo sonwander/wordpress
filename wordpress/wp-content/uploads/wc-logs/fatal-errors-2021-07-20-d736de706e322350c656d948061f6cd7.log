@@ -1,0 +1,45 @@
+2021-07-20T12:10:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php, na linha 82
+
+2021-07-20T16:21:44+00:00 CRITICAL Uncaught Error: Call to undefined function action() in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(528): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php, na linha 14
+
+2021-07-20T16:22:39+00:00 CRITICAL Uncaught Error: Call to undefined function action() in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(528): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php, na linha 14
+
+2021-07-20T19:29:37+00:00 CRITICAL Cannot redeclare add_text_after_button() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php:51), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 56
+
+2021-07-20T19:30:26+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php:55
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): add_text_before_button('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1629): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->a, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 55
+
+2021-07-20T19:33:15+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php:55
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(290): add_text_before_button()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1629): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->app, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 55
+

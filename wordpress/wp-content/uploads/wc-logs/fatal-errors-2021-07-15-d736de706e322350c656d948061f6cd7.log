@@ -1,0 +1,96 @@
+2021-07-15T12:14:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php, na linha 82
+
+2021-07-15T14:09:58+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php(1): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php, na linha 62
+
+2021-07-15T14:13:06+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:13:12+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:14:31+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php(1): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php, na linha 62
+
+2021-07-15T14:16:11+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/wp-content/themes/occhialeria/include/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:16:59+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeriawp-content\themes\occhialeria\include\class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:17:05+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeriawp-content\themes\occhialeria\include\class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:18:11+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php(1): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php, na linha 62
+
+2021-07-15T14:21:31+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php(1): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php, na linha 62
+
+2021-07-15T14:22:05+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php(1): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\header.php, na linha 62
+
+2021-07-15T14:22:25+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:23:45+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:25:45+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:27:46+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:28:17+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/wp-content/themes/occhialeria/include/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:29:47+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/wp-content/themes/occhialeria/include/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:30:21+00:00 CRITICAL Cannot redeclare register_navwalker() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php:14), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 23
+
+2021-07-15T14:30:39+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/wp-content/themes/occhialeria/include/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php, na linha 14
+
+2021-07-15T14:31:48+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeria/wp-content/themes/occhialeria/include/class-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\functions.php, na linha 14
+
+2021-07-15T14:32:01+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeriaclass-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T14:32:47+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/occhialeriaclass-wp-bootstrap-navwalker.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\include\setup.php, na linha 22
+
+2021-07-15T19:41:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php, na linha 82
+

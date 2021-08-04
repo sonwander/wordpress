@@ -1,0 +1,4 @@
+2021-07-10T20:25:22+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php, na linha 7
+
+2021-07-10T20:28:15+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\page.php, na linha 13
+

@@ -1,0 +1,12 @@
+2021-07-12T19:35:39+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\index.php, na linha 58
+
+2021-07-12T19:35:42+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\index.php, na linha 58
+
+2021-07-12T21:03:15+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_the_posts_navigation() in C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\index.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wp-content\themes\occhialeria\index.php, na linha 29
+

@@ -1,0 +1,6 @@
+2021-07-16T12:02:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php, na linha 82
+
+2021-07-16T12:11:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-screen.php, na linha 15
+
+2021-07-16T19:37:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded, em C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php, na linha 82
+
